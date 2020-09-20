@@ -1,0 +1,26 @@
+package giovani_bergamo.atividade;
+
+  public class carro {
+      private double peso;
+      private String grupo;
+      //gerar getters and setters
+
+      public carro() {
+      //padrão
+      }
+
+      public carro(double peso, String grupo) {
+          super();
+          this.peso = peso;
+          this.grupo = grupo;
+      }
+
+      public static void main(String[] args) {
+          carro a = new carro();
+          a.setPeso(1000.5);
+          a.setGrupo("SUV");
+          System.out.println("Peso: " + a.getPeso() + " Grupo: " + a.getGrupo());
+          Animal b = new Animal(980.0, "utilitario");
+          System.out.println("Peso: " + b.getPeso() + " Grupo: " + b.getGrupo());
+      }
+  }
