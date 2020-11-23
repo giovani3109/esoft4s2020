@@ -1,4 +1,4 @@
-package vinicius_padilha;
+package giovani_bergamo;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToOne;
